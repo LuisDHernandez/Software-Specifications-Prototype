@@ -5,26 +5,37 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoanScreen">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171"
+  xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoanScreen">
   <children>
-    <Label fx:id="lblaccountName" layoutX="14.0" layoutY="14.0" text="Account: Name of Employee" />
-    <Label fx:id="lbldateLoaned" layoutX="21.0" layoutY="61.0" text="Date Loaned:" />
-    <Label fx:id="lblStaff" layoutX="161.0" layoutY="61.0" text="Staff:" />
-    <Label fx:id="lblResident" layoutX="284.0" layoutY="61.0" text="Resident:" />
-    <Label fx:id="lblItem" layoutX="467.0" layoutY="61.0" text="Item:" />
-    <Label fx:id="lblSignType" layoutX="21.0" layoutY="200.0" text="Signature Type:" />
-    <Label fx:id="lblStaffSign" layoutX="161.0" layoutY="200.0" text="Staff e-sign:" />
-    <Label fx:id="lblStudentSign" layoutX="284.0" layoutY="200.0" text="Student e-sign:" />
-    <Label fx:id="lblReturned" layoutX="467.0" layoutY="200.0" text="Timestamp:" />
-    <Button fx:id="btnReturnItem" layoutX="245.0" layoutY="151.0" mnemonicParsing="false" onAction="#LoanReturn" text="Return Equipment" />
-    <Button fx:id="btnReturnMain" layoutX="21.0" layoutY="355.0" mnemonicParsing="false" onAction="#BackToMainScreen" text="Return to Main Screen" />
-    <TextField layoutX="21.0" layoutY="82.0" prefHeight="31.0" prefWidth="125.0" />
-    <TextField layoutX="161.0" layoutY="82.0" prefHeight="31.0" prefWidth="111.0" />
-    <TextField layoutX="284.0" layoutY="82.0" prefHeight="31.0" prefWidth="168.0" />
-    <TextField layoutX="467.0" layoutY="82.0" prefHeight="31.0" prefWidth="118.0" />
-    <TextField layoutX="467.0" layoutY="228.0" prefHeight="31.0" prefWidth="118.0" />
-    <TextField layoutX="284.0" layoutY="228.0" prefHeight="31.0" prefWidth="168.0" />
-    <TextField layoutX="161.0" layoutY="228.0" prefHeight="31.0" prefWidth="111.0" />
-    <TextField layoutX="21.0" layoutY="228.0" prefHeight="31.0" prefWidth="125.0" />
+    <Label fx:id="lblaccountName" layoutX="14.0" layoutY="14.0" text="Account: Name of Employee"/>
+    <Label fx:id="lbldateLoaned" layoutX="21.0" layoutY="61.0" text="Date Loaned:"/>
+    <Label fx:id="lblStaff" layoutX="161.0" layoutY="61.0" text="Staff:"/>
+    <Label fx:id="lblResident" layoutX="284.0" layoutY="61.0" text="Resident:"/>
+    <Label fx:id="lblItem" layoutX="467.0" layoutY="61.0" text="Item:"/>
+    <Label fx:id="lblSignType" layoutX="21.0" layoutY="200.0" text="Signature Type:"/>
+    <Label fx:id="lblStaffSign" layoutX="161.0" layoutY="200.0" text="Staff e-sign:"/>
+    <Label fx:id="lblStudentSign" layoutX="284.0" layoutY="200.0" text="Student e-sign:"/>
+    <Label fx:id="lblReturned" layoutX="467.0" layoutY="200.0" text="Timestamp:"/>
+    <Button fx:id="btnReturnItem" layoutX="245.0" layoutY="151.0" mnemonicParsing="false"
+      onAction="#LoanReturn" text="Return Equipment"/>
+    <Button fx:id="btnReturnMain" layoutX="21.0" layoutY="355.0" mnemonicParsing="false"
+      onAction="#BackToMainScreen" text="Return to Main Screen"/>
+    <TextField fx:id="txtfDL" layoutX="21.0" layoutY="82.0" prefHeight="31.0" prefWidth="125.0"
+      promptText="4/7/2019"/>
+    <TextField fx:id="txtfStaff" layoutX="161.0" layoutY="82.0" prefHeight="31.0" prefWidth="111.0"
+      promptText="Jane Doe"/>
+    <TextField fx:id="txtfResident" layoutX="284.0" layoutY="82.0" prefHeight="31.0"
+      prefWidth="168.0" promptText="James Madison"/>
+    <TextField fx:id="txtfItem" layoutX="467.0" layoutY="82.0" prefHeight="31.0" prefWidth="118.0"
+      promptText="Dolly"/>
+    <TextField fx:id="txtfTime" layoutX="467.0" layoutY="228.0" prefHeight="31.0" prefWidth="118.0"
+      promptText="8:47pm"/>
+    <TextField fx:id="txtfStSS" layoutX="284.0" layoutY="228.0" prefHeight="31.0" prefWidth="168.0"
+      promptText="James Madison"/>
+    <TextField fx:id="txtfSS" layoutX="161.0" layoutY="228.0" prefHeight="31.0" prefWidth="111.0"
+      promptText="John Doe"/>
+    <TextField fx:id="txtfST" layoutX="21.0" layoutY="228.0" prefHeight="31.0" prefWidth="125.0"
+      promptText="Card Swipe"/>
   </children>
 </AnchorPane>

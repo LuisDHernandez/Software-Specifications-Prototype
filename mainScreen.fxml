@@ -26,7 +26,8 @@
         <Label fx:id="lblName" layoutX="76.0" layoutY="21.0" text="Name of Employee"/>
         <Button fx:id="btnStartLoan" layoutX="107.0" layoutY="105.0" mnemonicParsing="false"
           onAction="#LoanStart" text="Start a Loan"/>
-        <TextField fx:id="txfStudentID" layoutX="235.0" layoutY="105.0"/>
+        <TextField fx:id="txfStudentID" layoutX="235.0" layoutY="105.0"
+          promptText="Enter Student Name"/>
         <Label fx:id="lblLoanHistory" layoutX="107.0" layoutY="185.0"
           text="Equipment Loan History:"/>
         <ScrollBar fx:id="vscrollHistory" layoutX="544.0" layoutY="240.0" orientation="VERTICAL"

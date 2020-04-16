@@ -44,5 +44,5 @@ public class MainScreen {
     primaryStage.setTitle("Loan Screen");
     primaryStage.setScene(new Scene(root,700,700));
     primaryStage.show();
-  }
+  } // load the loan screen for a student
 }

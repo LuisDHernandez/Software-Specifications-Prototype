@@ -53,11 +53,11 @@ public class LoanScreen {
     primaryStage.setTitle("Equipment Loan System");
     primaryStage.setScene(new Scene(root,700,700));
     primaryStage.show();
-  }
+  } // return back to the main screen
 
   @FXML
   void LoanReturn(ActionEvent event) {
     System.out.println("Item has been returned! Thank you for being our customer!");
-  }
+  } // normally a database will record a loan that is finished
 
 }

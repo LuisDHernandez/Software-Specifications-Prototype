@@ -14,7 +14,7 @@ public class Main extends Application {
         primaryStage.setTitle("Equipment Loan System");
         primaryStage.setScene(new Scene(root, 700, 700));
         primaryStage.show();
-    }
+    } // load the main screen for the system
 
     public static void main(String[] args) {
         launch(args);
