@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" prefHeight="619.0" prefWidth="656.0" vgap="10"
+  xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+  fx:controller="sample.MainScreen">
+  <columnConstraints>
+    <ColumnConstraints/>
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints/>
+  </rowConstraints>
+  <children>
+    <AnchorPane prefHeight="643.0" prefWidth="657.0">
+      <children>
+        <Label fx:id="lblAccount" layoutX="14.0" layoutY="21.0" text="Account: "/>
+        <Label fx:id="lblName" layoutX="76.0" layoutY="21.0" text="Name of Employee"/>
+        <Button fx:id="btnStartLoan" layoutX="107.0" layoutY="105.0" mnemonicParsing="false"
+          onAction="#LoanStart" text="Start a Loan"/>
+        <TextField fx:id="txfStudentID" layoutX="235.0" layoutY="105.0"
+          promptText="Enter Student Name"/>
+        <Label fx:id="lblLoanHistory" layoutX="107.0" layoutY="185.0"
+          text="Equipment Loan History:"/>
+        <ScrollBar fx:id="vscrollHistory" layoutX="544.0" layoutY="240.0" orientation="VERTICAL"
+          prefHeight="246.0" prefWidth="21.0"/>
+        <ListView fx:id="lsvHistory" layoutX="112.0" layoutY="240.0" prefHeight="246.0"
+          prefWidth="431.0"/>
+      </children>
+    </AnchorPane>
+  </children>
+</GridPane>
